@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Втеча від Вчителя</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="gameContainer">
+        <div id="ui">📌 Час: <span id="timer">0</span> с</div>
+        
+        <canvas id="gameCanvas"></canvas>
+        
+        <div id="gameOver">
+            <h2>Не складено!</h2>
+            <p>Ви бігали від вчителя: <strong><span id="finalTime">0</span> с</strong></p>
+            <p style="font-size: 14px; color: #7f8c8d;">Наступного разу вчіть конспект!</p>
+            <button id="restartBtn">Перескласти</button>
+        </div>
+
+        <div id="mobileControls">
+            <div class="control-row">
+                <div class="mobile-btn" id="btnUp">⬆️</div>
+            </div>
+            <div class="control-row">
+                <div class="mobile-btn" id="btnLeft">⬅️</div>
+                <div class="mobile-btn" id="btnDown">⬇️</div>
+                <div class="mobile-btn" id="btnRight">➡️</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
