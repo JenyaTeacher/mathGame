@@ -76,7 +76,7 @@ constructor() {
         this.width = 70 * scale; 
         this.height = 150 * scale;
         this.x = canvas.width / 2; 
-        this.y = canvas.height - (150 * scale)-150;
+        this.y = canvas.height - (300 * scale);
         this.speed = 4 * scale; // Швидкість теж адаптуємо для балансу
     }
  draw() { 
